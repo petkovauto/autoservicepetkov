@@ -1,5 +1,5 @@
 ﻿
-@import url("font-awesome_icon-font.css");
+/* @import url("font-awesome_icon-font.css"); */
 @import url("et-line_icon-font.css");
 @import url("./plugins/owl.carousel.css");
 @import url("./plugins/magnific-popup.css");
@@ -77,6 +77,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+ul {
+  list-style: none;  
+  padding-left: 0;
 }
 
 #page-wraper {
@@ -2673,6 +2678,10 @@ header.header-prepare .nav-bar-icon > span::after {
 #intro {
     position: relative;
     overflow: hidden;
+}
+
+.intro-logo {
+    max-width: 100%;
 }
 
 .intro-media-wraper {
